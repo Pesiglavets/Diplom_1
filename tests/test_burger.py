@@ -1,6 +1,6 @@
 import pytest
 from unittest.mock import Mock
-from ..ingredient import Ingredient
+from praktikum.ingredient import Ingredient
 
 
 class TestBurger:

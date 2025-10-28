@@ -1,7 +1,7 @@
 import pytest
-from ..bun import Bun
-from ..ingredient import Ingredient
-from ..ingredient_types import INGREDIENT_TYPE_FILLING, INGREDIENT_TYPE_SAUCE
+from praktikum.bun import Bun
+from praktikum.ingredient import Ingredient
+from praktikum.ingredient_types import INGREDIENT_TYPE_FILLING, INGREDIENT_TYPE_SAUCE
 
 
 class TestDatabase:
