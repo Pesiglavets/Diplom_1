@@ -1,5 +1,4 @@
 import pytest
-from ..database import Database
 from ..bun import Bun
 from ..ingredient import Ingredient
 from ..ingredient_types import INGREDIENT_TYPE_FILLING, INGREDIENT_TYPE_SAUCE
