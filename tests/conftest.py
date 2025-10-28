@@ -1,5 +1,6 @@
 import pytest
 from unittest.mock import Mock
+from ..database import Database
 from ..burger import Burger
 from ..bun import Bun
 from ..ingredient import Ingredient
@@ -10,6 +11,11 @@ from ..ingredient_types import INGREDIENT_TYPE_SAUCE
 def burger():
     burger = Burger()
     return burger
+
+@pytest.fixture
+def database():
+    database = Database()
+    return database
 
 @pytest.fixture
 def bun_mock():

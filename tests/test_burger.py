@@ -1,7 +1,5 @@
 import pytest
 from unittest.mock import Mock
-from ..burger import Burger
-from ..bun import Bun
 from ..ingredient import Ingredient
 
 
